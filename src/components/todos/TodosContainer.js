@@ -10,7 +10,7 @@ class TodosContainer extends Component {
   render(){
     return(
       <div>
-        {this.renderTodos}
+        {this.renderTodos()}
       </div>
     )
   }
